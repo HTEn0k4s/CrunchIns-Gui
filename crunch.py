@@ -36,7 +36,7 @@ class Ui_Form(object):
         self.label = QtGui.QLabel(self.frame)
         self.label.setMaximumSize(QtCore.QSize(200, 16777215))
         self.label.setText(_fromUtf8(""))
-        self.label.setPixmap(QtGui.QPixmap(_fromUtf8("../escudo.png")))
+        self.label.setPixmap(QtGui.QPixmap(_fromUtf8("image/escudo.png")))
         self.label.setScaledContents(True)
         self.label.setObjectName(_fromUtf8("label"))
         self.gridLayout_2.addWidget(self.label, 0, 0, 1, 1)
